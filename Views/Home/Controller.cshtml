@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Controller";
+}
+<div class="text-center">
+    <h1 class="display-4">Controller</h1>
+    <div class="container">
+        <img src="/image/mvc.png" class="rounded float-start m-3" alt="...">
+        <p>
+           
+            Accepts input and converts it to commands for the model or view.
+
+            A Smalltalk-80 controller handles user input events, such as button presses or mouse movement. At any given time, each controller has one associated view and model, although one model object may hear from many different controllers. Only one controller, the "active" controller, receives user input at any given time; a global window manager object is responsible for setting the current active controller. If user input prompts a change in a model, the controller will signal the model to change, but the model is then responsible for telling its views to update.
+
+            In WebObjects, the views handle user input, and the controller mediates between the views and the models. There may be only one controller per application, or one controller per window. Much of the application-specific logic is found in the controller.
+
+            In Rails, requests arriving at the on-server application from the client are sent to a "router", which maps the request to a specific method of a specific controller. Within that method, the controller interacts with the request data and any relevant model objects and prepares a response using a view. Conventionally, each model type has an associated controller; for example, if the application had a Client model, it would typically have an associated Clients controller as well. However, developers are free to make other kinds of controllers if they wish.
+
+            Django calls the object playing this role a "view" instead of a controller.[30] A Django view is a function that receives a web request and returns a web response. It may use templates to create the response.
+        </p>
+    </div>
+</div>
